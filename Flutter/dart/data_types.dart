@@ -1,4 +1,7 @@
-import 'dart:ffi';
+
+
+typedef integer = int;
+typedef map = Map<String, Map<String, dynamic>>;
 
 void main() {
 // Different command lines
@@ -22,6 +25,11 @@ void main() {
 // The value null (Null)
 
 // 1 . Numbers
+  integer bb = 10;
+  map ha = {
+    "key": {"key": 2}
+  };
+  print(bb);
   num a = 1;
   num b = 1.1;
   int c = 2;
@@ -34,7 +42,7 @@ void main() {
 
   String name = "Harish";
   String some = "vimal";
-  String ha = 'n vfksvjsfvbsl'
+  String haa = 'n vfksvjsfvbsl'
       'jfvl'
       'fkjv'
       'jfewnever';
@@ -75,11 +83,8 @@ void main() {
   print([
     for (int i = 0; i < 20; i++) i,
     if (1 == 1) 1,
-    ...['Home', 'Furniture', 'Plants', if (login case 'Manager') 'Inventory' ]
+    ...['Home', 'Furniture', 'Plants', if (login case 'Manager') 'Inventory']
   ]);
-
-
-  
 }
 
 

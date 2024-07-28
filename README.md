@@ -36,8 +36,14 @@ Welcome to the Flutter Development Webinar! Over the next three days, we'll dive
 ## 📚 Additional Resources
 
 - **Flutter Documentation**: [flutter.dev/docs](https://flutter.dev/docs)
-- **Dart Documentation**: [dart.dev/guides](https://dart.dev/guides)
-- **Firebase Documentation**: [firebase.google.com/docs](https://firebase.google.com/docs)
+- **Dart official Documentation**: [dart.dev/guides](https://dart.dev/guides)
+- **Dart basics Documentation**: [https://github.com/kodecocodes/daf-materials/]
+(https://github.com/kodecocodes/daf-materials/)
+- **Dart beyound basics Documentation**: [https://github.com/kodecocodes/dabb-materials/]
+(https://github.com/kodecocodes/dabb-materials/)
+- **Dart advanced Documentation**: [https://github.com/kodecocodes/dsad-materials/]
+(https://github.com/kodecocodes/dsad-materials/)
+
 
 ## 🔗 Stay Connected
 

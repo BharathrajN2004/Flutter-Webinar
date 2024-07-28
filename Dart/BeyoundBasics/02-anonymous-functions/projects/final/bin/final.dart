@@ -41,6 +41,7 @@ void returningFunctionsFromFunctions() {
   Function namedFunction() {
     return () => print('hello');
   }
+  // namedFunction()();
 }
 
 void iteratingOverAList() {

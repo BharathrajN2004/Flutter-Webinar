@@ -23,7 +23,7 @@ void main() {
     print('sum: $sum');
   } while (sum < 10);
 
-  /// Comparing While and Do-While Loops
+  /// Comparing While and Do-While Loopsreach
 
   sum = (1 + 3 - 2 * 4 + 8);
   while (sum < 10) {

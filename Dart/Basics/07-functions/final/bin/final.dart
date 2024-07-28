@@ -14,15 +14,15 @@
 /// Remember that you can Command+click (or Control+click) a
 /// function name to go to its source.
 void main() {
-  anatomyOfDartFunction();
-  usingMultipleParameters();
-  makingParametersOptional();
-  providingDefaultValues();
-  namingParameters();
-  makingNamedParametersRequired();
+  // anatomyOfDartFunction();
+  // usingMultipleParameters();
+  // makingParametersOptional();
+  // providingDefaultValues();
+  // namingParameters();
+  // makingNamedParametersRequired();
   avoidingSideEffects();
-  optionalTypes();
-  arrowFunctions();
+  // optionalTypes();
+  // arrowFunctions();
 }
 
 void anatomyOfDartFunction() {

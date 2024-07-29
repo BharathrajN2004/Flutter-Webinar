@@ -1,7 +1,5 @@
-
-
 void main() {
-
+  assert(1 == 2);
 }
   
 
@@ -31,8 +29,7 @@ void main() {
 //   var stdName;
 //   var stdAge;
 //   var stdRoll_nu;
-//   static int count = 0;
-// 
+//   static int count = 0; 
 //   get name => this.stdName;
 //   //  paremeterized cons
 //   Student({required String name, required int age}) {

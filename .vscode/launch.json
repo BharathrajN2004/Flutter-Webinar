@@ -1,0 +1,184 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "mobile_app",
+            "cwd": "Flutter\\mobile_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "mobile_app (profile mode)",
+            "cwd": "Flutter\\mobile_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "mobile_app (release mode)",
+            "cwd": "Flutter\\mobile_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "data_types",
+            "cwd": "Dart\\Basics\\data_types",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "challenge",
+            "cwd": "Dart\\Basics\\05-control-flow\\challenge",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final",
+            "cwd": "Dart\\Basics\\05-control-flow\\final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "challenge",
+            "cwd": "Dart\\Basics\\06-loops\\challenge",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final",
+            "cwd": "Dart\\Basics\\06-loops\\final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "challenge",
+            "cwd": "Dart\\Basics\\07-functions\\challenge",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final",
+            "cwd": "Dart\\Basics\\07-functions\\final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "challenge",
+            "cwd": "Dart\\Basics\\08-classes\\challenge",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final",
+            "cwd": "Dart\\Basics\\08-classes\\final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "challenge",
+            "cwd": "Dart\\Basics\\09-constructors\\challenge",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final",
+            "cwd": "Dart\\Basics\\09-constructors\\final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "challenge",
+            "cwd": "Dart\\Basics\\10-static-members\\challenge",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final",
+            "cwd": "Dart\\Basics\\10-static-members\\final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "challenge",
+            "cwd": "Dart\\Basics\\11-nullability\\challenge",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final",
+            "cwd": "Dart\\Basics\\11-nullability\\final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "challenge",
+            "cwd": "Dart\\Basics\\12-lists\\challenge",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final",
+            "cwd": "Dart\\Basics\\12-lists\\final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "challenge",
+            "cwd": "Dart\\Basics\\13-sets\\challenge",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final",
+            "cwd": "Dart\\Basics\\13-sets\\final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "challenge",
+            "cwd": "Dart\\Basics\\14-maps\\challenge",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final",
+            "cwd": "Dart\\Basics\\14-maps\\final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "challenge",
+            "cwd": "Dart\\Basics\\15-iterables\\challenge",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final",
+            "cwd": "Dart\\Basics\\15-iterables\\final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "challenge",
+            "cwd": "Dart\\BeyoundBasics\\projects\\challenge",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final",
+            "cwd": "Dart\\BeyoundBasics\\projects\\final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter",
+            "cwd": "Dart\\BeyoundBasics\\projects\\starter",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}

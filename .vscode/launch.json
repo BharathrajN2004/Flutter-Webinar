@@ -5,6 +5,26 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "mobile_app",
+            "cwd": "Flutter\\mobile_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "mobile_app (profile mode)",
+            "cwd": "Flutter\\mobile_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "mobile_app (release mode)",
+            "cwd": "Flutter\\mobile_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
             "name": "data_types",
             "cwd": "Dart\\Basics\\data_types",
             "request": "launch",

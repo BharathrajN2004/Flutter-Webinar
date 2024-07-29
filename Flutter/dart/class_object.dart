@@ -1,7 +1,21 @@
-
-
 void main() {
+  // Assignment Operator
+  int? a;
+  a ??= 10;
+  a ??= 20;
+  print(a);
 
+  //  conditional Operator
+
+  a == 10 ? print("a is 10") : print("a is 20");
+
+  print(a ?? "20");
+
+  List<int>? numbers1 = [1, 2, 3];
+  List<int>? numbers2 = null;
+  List<int>? numbers3 = [4, 5, 6];
+  List k = [...numbers1, ...?numbers2, ...numbers3];
+  print(k);
 }
   
 
@@ -31,8 +45,7 @@ void main() {
 //   var stdName;
 //   var stdAge;
 //   var stdRoll_nu;
-//   static int count = 0;
-// 
+//   static int count = 0; 
 //   get name => this.stdName;
 //   //  paremeterized cons
 //   Student({required String name, required int age}) {
@@ -61,6 +74,29 @@ void main() {
 //     print("Student Roll Number is : ${stdRoll_nu}");
 //   }
 
+// }
+
+// class Person {
+//   String? name;
+//   int? age;
+
+//   void greet() {
+//     print("Hello, my name is $name.");
+//   }
+// }
+
+// void main() {
+//   Person? person;
+
+//   // This won't call greet() because person is null
+//   person?..greet();
+
+//   person = Person()
+//     ..name = "Alice"
+//     ..age = 30;
+
+//   // This will call greet() because person is not null
+//   person?..greet(); // Output: Hello, my name is Alice.
 // }
 
 

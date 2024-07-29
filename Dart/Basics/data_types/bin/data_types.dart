@@ -14,15 +14,19 @@ void main() {
   // Declaration types
   // var, object, dynamic are runtime type defining declarations
   var number = 321;
+  // number = "dsfg";
   Object object = 132;
+  // object = "sdfgsdf";
+  // int integer = object ;
   dynamic dynamicValue = 123.321;
+  // dynamicValue = "dsfgdf";
 
   print("VAR: $number => ${number.runtimeType}");
   print("OBJECT: $object => ${object.runtimeType}");
   print("DYNAMIC: $dynamicValue => ${dynamicValue.runtimeType}");
 
   // Type Casting
-  int intObj = object as int;
+  int intObj = int.parse(object.toString());
   print("Converted OBJECT to INT: $intObj");
 
   // special declaration keywords
@@ -32,27 +36,36 @@ void main() {
   // final int finalValue = 435;
 
   /* FUN PART */
-  const List<int> constList = [10,20,30];
+  // const  constList = [10,20,30];
   // constList.add(40);   // not allowed
   // print("ConstList : $constList");
   // final List<int> constList = const [10,20,30];
   // constList.add(10);
 
-  final List<int> finalList = [10,20,30];
+  // final int integer = 43;
+  // integer++;
+
+  // print("gxjvhsf sddfsdff");
+  // final List<int> finalList = [10,20,30];
   // finalList.add(40);
   // finalList.remove(20);
   // print("FinalList : $finalList");
+  // print("sf dsf       sdfgsdffg");
+  // final List<int> list1 = List.from([10, 20, 30]);
+  // List<int> list2 = list1;
+  // list1.add(60);
+  // print(list2);
 
   // num
 
   // num is the parent class for int and double
-  num myNum = 10.5;
+  num myNum = 10;
   print(myNum.abs()); // 10.5
   print(myNum.ceil()); // 11
   print(myNum.floor()); // 10
   print(myNum.round()); // 11
   print(myNum.toInt()); // 10
-  print(myNum.toDouble()); // 10.5
+  print(myNum.toDouble()); // 10.0
 
   // int
 
@@ -79,16 +92,17 @@ void main() {
   // String
 
   // String is a sequence of UTF-16 code units
-  String myStr = "Hello, Dart!";
+  String myStr = "     Hello, Dart!";
   print(myStr.length); // 12
   print(myStr.isEmpty); // false
   print(myStr.toLowerCase()); // hello, dart!
   print(myStr.toUpperCase()); // HELLO, DART!
   print(myStr.substring(0, 5)); // Hello
   print(myStr.contains('Dart')); // true
-  print(myStr.replaceAll('Dart', 'Flutter')); // Hello, Flutter!
+  print(myStr.replaceAll(RegExp(r'D.+'), 'Flutter')); // Hello, Flutter!
   print(myStr.split(', ')); // [Hello, Dart!]
   print(myStr.trim()); // Hello, Dart!
+  print(myStr);
 
   // List
 
@@ -104,6 +118,7 @@ void main() {
   print(myNumList.map((e) => e * 2)); // (2, 4, 6, 8)
   print(myNumList.where((e) => e > 2)); // (3, 4)
   print(myNumList.reduce((a, b) => a + b)); // 10
+  myNumList.fold(0, (prev, ele) => prev + ele);
 
   // Map
 

@@ -1,6 +1,14 @@
+typedef abc = int ;
 void main() {
-
-
+  
+  Iterable<int> iterable = [1, 2, 3];
+  final numbers = <int>[1, 2, 3, 5, 6, 7,];
+  var result = numbers.firstWhere((element) {
+    return element<5;
+  }); // 1
+  print(result);
+  // result = numbers.lastWhere((element) => element > 5);
+  // print(result);
 }
 
 
@@ -39,7 +47,7 @@ void main() {
 //       break;
 //     case 'Wednesday':
 //       print('It\'s Wednesday, middle of the work week.');
-//       break;
+//      
 //     case 'Thursday':
 //       print('It\'s Thursday, almost the weekend!');
 //       break;

@@ -2,21 +2,25 @@
 // For full license & permission details, see LICENSE.
 
 void main() {
-  // Null overview
-  whatNullMeans();
-  problemWithNull();
-  nullableVsNonNullable();
 
-  // Handling nullable types
-  handlingNullableTypes();
-  typePromotion();
-  ifNullOperator();
-  nullAwareAssignmentOperator();
-  nullAwareAccess();
-  nullAssertionOperator();
-  nullAwareCascadeOperator();
-  nullableInstanceVariables();
-  lateKeyword();
+  // String? str;
+  // print(str!.split('1'));
+
+  // // Null overview
+  // whatNullMeans();
+  // problemWithNull();
+  // nullableVsNonNullable();
+
+  // // Handling nullable types
+  // handlingNullableTypes();
+  // typePromotion();
+  // ifNullOperator();
+  // nullAwareAssignmentOperator();
+  // nullAwareAccess();
+  // nullAssertionOperator();
+  // nullAwareCascadeOperator();
+  // nullableInstanceVariables();
+  // lateKeyword();
 }
 
 void whatNullMeans() {
@@ -86,14 +90,22 @@ void ifNullOperator() {
 
 void nullAwareAssignmentOperator() {
   double? fontSize;
+  // if(fontSize == null){
+  //   fontSize = 10;
+  // }
+
+  // fontSize = 10;
   // fontSize = fontSize ?? 20.0;
-  fontSize ??= 20.0;
+  // fontSize ??= 20.0;
 
   print(fontSize);
 }
 
 void nullAwareAccess() {
+  // late int age1;
+  // age1!.isFinite;
   int? age;
+  // age?.ceil();
   print(age?.isNegative);
   print(age?.toDouble());
 }
@@ -113,7 +125,7 @@ void nullAssertionOperator() {
   //bool flowerIsBeautiful = isBeautiful('flower');
   //bool flowerIsBeautiful = isBeautiful('flower')!;
   //bool flowerIsBeautiful = isBeautiful('flower') as bool;
-  bool flowerIsBeautiful = isBeautiful('flower') ?? true;
+  bool flowerIsBeautiful = isBeautiful('ga') ?? true;
 }
 
 void nullAwareCascadeOperator() {

@@ -7,19 +7,19 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 
 Future<void> main() async {
-  await futureType();
-  await usingCallbacks();
+  // await futureType();
+  // await usingCallbacks();
   await usingAsyncAwait();
-  await usingAsyncAwaitWithErrorHandling();
-  await asynchronousNetworkRequest();
-  await creatingFutureFromScratch();
+  // await usingAsyncAwaitWithErrorHandling();
+  // await asynchronousNetworkRequest();
+  // await creatingFutureFromScratch();
 }
 
 Future<void> futureType() async {
   final numberOfAtoms = await countTheAtoms();
   print(numberOfAtoms);
 
-  final myFuture = Future<int>.delayed(
+  final myFuture = await Future<int>.delayed(
     Duration(seconds: 1),
     () => 42,
   );
@@ -86,6 +86,7 @@ Future<void> asynchronousNetworkRequest() async {
     // final url = 'https://jsonplaceholder.typicode.com/todos/pink-elephants';
     final parsedUrl = Uri.parse(url);
     final response = await http.get(parsedUrl);
+    // 
     final statusCode = response.statusCode;
     if (statusCode != 200) {
       throw HttpException('$statusCode');

@@ -1,18 +1,70 @@
-import 'dart:async';
+
 
 void main() {
+
+}
   
+
+// Class Structure
+
 //  class ClassName {
 //     <fields> - static , final , const  , this,  super
 //     <getter/setter>
 //     <constructor>
 //     <functions>
 // }
+
+
+// class Hari {}
   // Hari a = Hari();
   // Hari b = Hari();
   // print(a.runtimeType);
   // print(a);
   // print(a.runtimeType == b.runtimeType);
+
+// class Teacher {
+//   int a = 10;
+// }
+
+
+// class Student extends Teacher {
+//   var stdName;
+//   var stdAge;
+//   var stdRoll_nu;
+//   static int count = 0;
+// 
+//   get name => this.stdName;
+//   //  paremeterized cons
+//   Student({required String name, required int age}) {
+//     // print(super.a);
+//     // print(name);
+//     // print(age);
+//     count += 1;
+//   }
+
+//   // named const
+//   Student.hello() : this.welcome();
+//  // calling super class
+//   Student.name()
+//       : stdAge = 20,
+//         super();
+//   //  it's possible
+
+//   Student.welcome() {
+//     print("This is welcome class");
+//   }
+
+//   // defining class function
+//   showStdInfo() {
+//     print("Student Name is : ${stdName}");
+//     print("Student Age is : ${stdAge}");
+//     print("Student Roll Number is : ${stdRoll_nu}");
+//   }
+
+// }
+
+
+
   // Student student = Student(name: "afd", age: 20);
   // student.stdAge = 90;
   // print(student.stdAge);
@@ -20,75 +72,62 @@ void main() {
   // Student st1 = Student(name: ' name', age: 1);
 
   // Student st2 = Student(name: ' name', age: 1);
-  Student st3 = Student(name: ' clin', age: 1);
-  print(st3
-    ..name
-    ..a.toInt());
-  var performer = Performer("Bob");
-  performer.sing(); // Outputs: Singing...
-  performer.dance();
-}
+  
 
-class Hari {}
 
-class Student extends Teacher {
-  var stdName;
-  var stdAge;
-  var stdRoll_nu;
-  static int count = 0;
-  get name => this.stdName;
-  //  paremeterized cons
-  Student({required String name, required int age}) {
-    // print(super.a);
-    // print(name);
-    // print(age);
-    count += 1;
-  }
+// Factory  Constructors
 
-  // named const
-  Student.hello() : this.welcome();
-  Student.name()
-      : stdAge = 20,
-        super();
-  //  it's possible
+// class Singleton {
+//   // Private static variable to hold the single instance
+//   static Singleton _instance;
 
-  Student.welcome() {
-    print("This is welcome class");
-  }
+//   // Private constructor to prevent external instantiation
+//   Singleton._internal();
 
-  // defining class function
-  showStdInfo() {
-    print("Student Name is : ${stdName}");
-    print("Student Age is : ${stdAge}");
-    print("Student Roll Number is : ${stdRoll_nu}");
-  }
+//   // Factory constructor to control instance creation
+//   factory Singleton() {
+//     if (_instance == null) {
+//       _instance = Singleton._internal();
+//     }
+//     return _instance;
+//   }
 
-}
+//   void showMessage() {
+//     print('Singleton instance!');
+//   }
+// }
 
-class Teacher {
-  int a = 10;
-}
+// void main() {
+//   var s1 = Singleton();
+//   var s2 = Singleton();
+
+//   s1.showMessage(); // Output: Singleton instance!
+//   print(s1 == s2); // Output: true (both are the same instance)
+// }
+
+
+
 
 // Mixins
 
+// mixin Dancer {
+//   void dance() {
+//     print("Dancing...");
+//   }
+// }
 
-mixin Dancer {
-  void dance() {
-    print("Dancing...");
-  }
-}
+// mixin Singer {
+//   void sing() {
+//     print("Singing...");
+//   }
+// }
 
-mixin Singer {
-  void sing() {
-    print("Singing...");
-  }
-}
+// class Performer with Singer, Dancer {
+//   String name;
 
-class Performer with Singer, Dancer {
-  String name;
+//   Performer(this.name);
+// }
 
-  Performer(this.name);
-}
 
 //  mixin constarinsts
 // class Performer {
@@ -112,19 +151,18 @@ class Performer with Singer, Dancer {
 // }
 
 
-// Extension
 
 // Enums
 
-enum Day {
-  Monday,
-  Tuesday,
-  Wednesday,
-  Thursday,
-  Friday,
-  Saturday,
-  Sunday
-}
+// enum Day {
+//   Monday,
+//   Tuesday,
+//   Wednesday,
+//   Thursday,
+//   Friday,
+//   Saturday,
+//   Sunday
+// }
 
 
 // enum Color {
@@ -145,12 +183,11 @@ enum Day {
 //   }
 // }
 
-// void main() {
+
 //   Color myColor = Color.Green;
 //   print("RGB value of Green is: ${myColor.rgb}");
-// }
 
-// Enum left overs 
+// Extension methods
 
 // print('42'.parseInt())
 // extension NumberParsing on String {
@@ -158,3 +195,6 @@ enum Day {
 //     return int.parse(this);
 //   }
 // }
+
+
+

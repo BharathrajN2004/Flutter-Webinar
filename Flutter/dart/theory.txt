@@ -1,0 +1,99 @@
+Dart :
+
+Dart is a modern, object-oriented programming language developed by Google.
+It is designed for building high-performance, cross-platform applications.
+
+
+await      ,	base        ,	    break	      ,     case
+abstract   ,	as          ,	    assert        ,    	async 3
+catch      , 	class       ,       const	      ,     continue
+covariant  ,	default	    ,       deferred      ,    	do
+dynamic    ,	else	    ,       enum	      ,     export ,
+extends    ,	extension   ,	    external      ,    	factory ,
+false	   ,    final (var)	,       final (class) ,    	finally
+for        ,    Function    ,	    get           ,    	hide ,
+if	       ,    implements  ,	    import        ,    	in
+interface  ,	is	        ,       late          ,    	library ,
+mixin      ,	new	        ,       null	      ,     of ,
+on         ,	operator    ,	    part          ,    	required ,
+rethrow    ,	return	    ,       sealed        ,    	set ,
+show       ,	static      ,	    super	      ,     switch
+sync       ,	this	    ,       throw	      ,     true
+try        ,	type        ,	    typedef       ,    	var
+void	   ,    when        ,	    with	      ,     while
+yield     
+
+Finished :
+
+
+Data Types :
+
+1.Numbers (int, double)
+2.Strings (String)
+3.Booleans (bool)
+4.Records ((value1, value2)) -  bundle multiple objects into a single object
+5.Lists (List, also known as arrays)
+6.Sets (Set)
+7.Maps (Map)
+8.Runes (Runes; often replaced by the characters API)
+
+Collection and Iterable
+
+A collection is an object that represents a group of objects, which are called elements. 
+An Iterable is a collection of elements that can be accessed sequentially.
+   
+
+Generics :
+
+Generics in Dart are a powerful feature that allows you to write classes, methods, and 
+functions with types that can be specified later.
+
+Typedef :
+
+A type alias—often called a typedef - is a concise way to refer to a type.
+
+Class & Objects: 
+
+. Every object is an instance of a class, and all classes except Null descend from Object.
+
+Constructors:
+
+1.Generative constructors: 
+2.Default constructors: 
+3.Named constructors: 
+4.Constant constructors: 
+5.Factory constructors: 
+6.Redirecting constructor:
+
+Factory Constructors
+
+Factory constructors can't access this.
+
+The constructor doesn't always create a new instance of its class. 
+Although a factory constructor cannot return null, it might return:
+    1. an existing instance from a cache instead of creating a new one
+    2. a new instance of a subtype
+
+
+Mixins
+
+Mixins are a way of defining code that can be reused in multiple class hierarchies.
+
+Mixins can't have extends or with clauses, so neither can a mixin class.
+Classes can't have an on clause, so neither can a mixin class.
+
+use with to use mixin 
+Mixins can have implements
+
+Enums
+
+Enumerated types, often called enumerations or enums, are a special kind of class
+used to represent  a fixed number of constant values.
+
+Extension
+
+extensions allow you to add new functionality to existing classes 
+or libraries without modifying their source code.
+
+
+

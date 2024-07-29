@@ -1,5 +1,5 @@
 void main() {
-
+  assert(2 == 4);
 }
 
 

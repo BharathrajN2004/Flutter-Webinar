@@ -1,21 +1,44 @@
 void main() {
-  // Assignment Operator
-  int? a;
-  a ??= 10;
-  a ??= 20;
-  print(a);
+  
+  // int? a;
+  // a ??= 10;
+  // a ??= 20;
+  // print(a);
 
-  //  conditional Operator
 
-  a == 10 ? print("a is 10") : print("a is 20");
+  
 
-  print(a ?? "20");
+  // a == 10 ? print("a is 10") : print("a is 20");
 
-  List<int>? numbers1 = [1, 2, 3];
-  List<int>? numbers2 = null;
-  List<int>? numbers3 = [4, 5, 6];
-  List k = [...numbers1, ...?numbers2, ...numbers3];
-  print(k);
+  // print(a ?? "20");
+
+  // List<int>? numbers1 = [1, 2, 3];
+  // List<int>? numbers2 = null;
+  // List<int>? numbers3 = [4, 5, 6];
+  // List k = [...numbers1, ...?numbers2, ...numbers3];
+  // // print(k);
+  // const Map<String, int> b = {"a": 1, "b": 2, "c": 3, "d": 4};
+  // b["a"] = 10;
+
+
+List<int> a = [ 1,2 ,3];
+print(a);
+List<int>b=a;
+// a[2]=30;
+// print(a);
+// print(b);
+
+
+print(identical(a, b));
+// List<int> c= List.from(a);
+// print(identical(a, c));
+
+// late  int a ;
+//   a=10;
+//   print(a);
+
+
+
 }
   
 

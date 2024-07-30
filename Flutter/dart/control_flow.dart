@@ -1,14 +1,18 @@
 typedef abc = int ;
 void main() {
+  // String a= "22";
+  // print(a[0]);
+  // a[0]="3";
   
-  Iterable<int> iterable = [1, 2, 3];
-  final numbers = <int>[1, 2, 3, 5, 6, 7,];
-  var result = numbers.firstWhere((element) {
-    return element<5;
-  }); // 1
-  print(result);
-  // result = numbers.lastWhere((element) => element > 5);
-  // print(result);
+   var message = StringBuffer('Dart is fun');
+  for (var i = 0; i < 5; i++) {
+    message.write("ej");
+  }
+
+  // List collection = [1, 2, 3];
+  // for (var i in collection) {
+  //   print(i);
+  // }
 }
 
 

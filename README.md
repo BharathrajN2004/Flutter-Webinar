@@ -45,13 +45,6 @@ Welcome to the Flutter Development Webinar! Over the next three days, we'll dive
 (https://github.com/kodecocodes/dsad-materials/)
 
 
-## 🔗 Stay Connected
-
-Join our community on:
-- **Discord**: [Join our Discord server](#)
-- **Twitter**: [Follow us on Twitter](#)
-- **LinkedIn**: [Connect with us on LinkedIn](#)
-
 We are thrilled to have you join us for this immersive experience. Let's build something amazing together! 🚀
 
 ---

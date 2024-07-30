@@ -39,6 +39,16 @@ print(identical(a, b));
 
 
 
+<<<<<<< HEAD
+=======
+  List<int>? numbers1 = [1, 2, 3];
+  List<int>? numbers2 = null;
+  List<int>? numbers3 = [4, 5, 6];
+  List k = [...numbers1, ...?numbers2, ...numbers3];
+  print(k);
+
+  const Map<String, int> b =  { "a": 1, "b":2 };
+>>>>>>> 6a1553963125d7aae40dcd61abf504a11603761b
 }
   
 

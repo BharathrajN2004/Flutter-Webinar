@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:mobile_app/silver_appbar.dart';
 
 void main() {
   runApp(const MyApp());
 }
- 
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -116,7 +117,8 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
+        onPressed: () => Navigator.of(context).push(
+            MaterialPageRoute(builder: (context) => SliverAppBarExample())),
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.

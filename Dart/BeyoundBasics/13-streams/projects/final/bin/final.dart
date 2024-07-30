@@ -6,14 +6,16 @@ import 'dart:convert';
 import 'dart:io';
 
 Future<void> main() async {
-  await readAsString();
-  readFromStream();
-  await readFromStreamAsynchronousForLoop();
-  errorHandlingUsingCallbacks();
-  await errorHandlingUsingTryCatch();
-  cancellingStreams();
-  transformingStreams();
-  creatingStreamsFromScratch();
+  // viewingBytes();
+  decodingBytes();
+  // await readAsString();
+  // readFromStream();
+  // await readFromStreamAsynchronousForLoop();
+  // errorHandlingUsingCallbacks();
+  // await errorHandlingUsingTryCatch();
+  // cancellingStreams();
+  // transformingStreams();
+  // creatingStreamsFromScratch();
 }
 
 Future<void> readAsString() async {
@@ -92,7 +94,7 @@ void transformingStreams() {
 }
 
 void viewingBytes() {
-  final file = File('assets/text.txt');
+  final file = File('assets/text_long.txt');
   final stream = file.openRead();
   stream.listen(
     (data) {
@@ -102,7 +104,7 @@ void viewingBytes() {
 }
 
 Future<void> decodingBytes() async {
-  final file = File('assets/text.txt');
+  final file = File('assets/text_long.txt');
   final byteStream = file.openRead();
   final stringStream = byteStream.transform(utf8.decoder);
   await for (var data in stringStream) {

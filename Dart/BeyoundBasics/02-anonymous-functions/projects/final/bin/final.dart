@@ -106,6 +106,7 @@ void reducing() {
 
   // final emptyList = <int>[];
   // final result = emptyList.reduce((sum, x) => sum + x);
+  // print(result);
 }
 
 void folding() {

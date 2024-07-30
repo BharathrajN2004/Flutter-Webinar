@@ -1,8 +1,23 @@
 
+typedef integer = int;
+typedef map = Map<String, Map<String, dynamic>>;
+
 
 void main(){
 
+  integer bb = 10;
+map ha = {
+  "key": {"key": 2}
+};
+  
+
 }
+
+//  num a = 1;
+//   num b = 1.1;
+//   int c = 2;
+//   double d = 3;
+//   print(b.runtimeType);
 
 
 

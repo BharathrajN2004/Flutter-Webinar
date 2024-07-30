@@ -20,9 +20,21 @@ void main() {
   // providingDefaultValues();
   // namingParameters();
   // makingNamedParametersRequired();
-  avoidingSideEffects();
+  // avoidingSideEffects();
+  print(sideEffect());
   // optionalTypes();
   // arrowFunctions();
+}
+
+String sideEffect() {
+  print("Hello ");
+  return side2();
+  print("world");
+}
+
+String side2() {
+  print("!");
+  return "side2";
 }
 
 void anatomyOfDartFunction() {
@@ -34,6 +46,8 @@ void anatomyOfDartFunction() {
   final output = compliment(input);
   print(output);
 }
+
+// int add(a,b) => a+b;
 
 void usingMultipleParameters() {
   void helloPersonAndPet(String person, String pet) {
@@ -73,6 +87,7 @@ void namingParameters() {
     return min <= value && value <= max;
   }
 
+  withinTolerance(10);
   print(withinTolerance(9, min: 7, max: 11));
   print(withinTolerance(9, max: 11, min: 7));
   print(withinTolerance(min: 7, max: 11, 9));
@@ -103,11 +118,11 @@ void avoidingSideEffects() {
   // }
   // hello();
 
-  String hello() {
-    return 'Hello!';
-  }
+  // String hello() {
+  //   return 'Hello!';
+  // }
 
-  print(hello());
+  // print(hello());
 
   var myPreciousData = 5782;
 
@@ -150,4 +165,9 @@ void arrowFunctions() {
 
   void printTripled(int number) => print(number * 3);
   printTripled(4);
+
+
+  // dynamic func (a,b){
+  //   return a+b;
+  // };
 }
